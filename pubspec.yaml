@@ -1,0 +1,25 @@
+name: yaraos_uikit
+description: "User interface kit for YaraOS."
+
+publish_to: none
+homepage: https://softyes.com.br
+repository: https://github.com/yara-os/uikit
+
+version: 0.1.0
+
+environment:
+  sdk: ^3.11.3
+  flutter: ^3.41.5
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  very_good_analysis: ^10.2.0
+
+flutter:
+  uses-material-design: false
